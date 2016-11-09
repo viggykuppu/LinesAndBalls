@@ -37,7 +37,7 @@ void run() {
 	target[2] = rand() % 255;
 	sf::RenderWindow window(sf::VideoMode(x, y), "SFML works!");
 	sf::CircleShape shape(100.f);
-	for (int i = 0; i < 30; i++) {
+	for (int i = 0; i < 40; i++) {
 		balls.push_back(addBall());
 	}
 	
